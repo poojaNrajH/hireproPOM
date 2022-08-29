@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="147.587">
+    <testcase classname="Checking Recruitment functionality" name="Recuruitment page field validation" time="26">
+        <system-out>
+            <![CDATA[Given User navigate to the Dashboard page by logging in Hireprous page......passed
+When User clicks on  Recruitment from top menu..............................passed
+Then User will be redirected to Recruitment process page....................passed
+And User clicks on Job Request menu.........................................passed
+Then User will be redirected to the JOb Request list page successfully......passed
+And User verifies fields on the Job Request list page.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Checking Recruitment functionality" name="Recruitment field and error message validation" time="17.903">
+        <system-out>
+            <![CDATA[Given User is on Job Request page...........................................passed
+When User clicks on New Job Request button..................................passed
+Then User will be redirected to Add job request page........................passed
+And User verifies fields on add job request page............................passed
+And User clicks on the Save button without entering the mandatory fields and verifies error meassage.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Checking Recruitment functionality" name="Filling Job Request creation" time="70.514">
+        <system-out>
+            <![CDATA[Given User navigate to the Recruitment page by logging in Hireprous page....passed
+When User clicks on  Recruitment from top...................................passed
+Then User will redirected to Recruitment process page.......................passed
+And User clicks on Job Request tab..........................................passed
+And User clicks on the new Job Request button...............................passed
+And User has to fill the details of Customer Name, Recruitment Role, Business Unit, No. of Openings, Location,  Currency Type, Pay Range, Pay Frequency, Employment Type, Project Start Date, Placement For, Remote Working, Recruiter, Email, Firstname, Lastname, Location, Pay Range, Contract Duration,Job Description, Mandatory Skills, Optional Skills and save the Job request.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hireprous login" name="Login page field validation" time="7.883">
+        <system-out>
+            <![CDATA[Given User navigate to Hireprous page.......................................passed
+When user verifies Hireprous logo...........................................passed
+And User verifies login page fields.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hireprous login" name="Login to application with Invalid user credentials" time="4.423">
+        <system-out>
+            <![CDATA[Given User is on the Hireprous page.........................................passed
+When User enters invalid username and password..............................passed
+And User clicks on the Log IN button........................................passed
+Then User verifes the error message for invalid credentials.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hireprous login" name="Login to application with valid user credentials" time="20.651">
+        <system-out>
+            <![CDATA[Given User is on Hireprous login page.......................................passed
+When User enters username and password......................................passed
+And User clicks on Log IN button............................................passed
+Then User login must be successful..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
